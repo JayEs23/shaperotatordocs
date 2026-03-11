@@ -1,4 +1,4 @@
-# CipherFlow - Database Schema
+# Velarc - Database Schema
 
 Complete database schema design using Prisma ORM.
 

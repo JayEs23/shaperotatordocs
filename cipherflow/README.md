@@ -1,4 +1,4 @@
-# CipherFlow - Complete Documentation
+# Velarc - Complete Documentation
 
 **Confidential AI Execution Platform for Secure Document Analysis**
 
@@ -29,9 +29,9 @@
 
 ## Product Overview
 
-### What is CipherFlow?
+### What is Velarc?
 
-CipherFlow is a **confidential AI execution platform** that enables sensitive documents to be analyzed by AI **without exposing the raw data** to the platform, operators, or third-party services.
+Velarc is a **confidential AI execution platform** that enables sensitive documents to be analyzed by AI **without exposing the raw data** to the platform, operators, or third-party services.
 
 ### Core Value Proposition
 
@@ -136,7 +136,7 @@ For each paper, document:
 - **Core Innovation**: What problem does it solve?
 - **Technical Approach**: How does it work?
 - **Relevant Components**: What can we use?
-- **Implementation Notes**: How to adapt for CipherFlow?
+- **Implementation Notes**: How to adapt for Velarc?
 
 ---
 
@@ -146,7 +146,7 @@ For each paper, document:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    CipherFlow Platform                   │
+│                      Velarc Platform                     │
 ├─────────────────────────────────────────────────────────┤
 │                                                          │
 │  ┌──────────────┐         ┌──────────────┐             │
@@ -270,8 +270,8 @@ For each paper, document:
 #### 1.1 Initialize Next.js Project
 
 ```bash
-npx create-next-app@latest cipherflow --typescript --tailwind --app
-cd cipherflow
+npx create-next-app@latest velarc --typescript --tailwind --app
+cd velarc
 ```
 
 #### 1.2 Install Dependencies
