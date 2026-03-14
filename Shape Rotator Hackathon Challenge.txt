@@ -1,0 +1,128 @@
+Shape Rotator Hackathon Challenge
+The best challenges are here, take a look.
+
+Build Proofs of Concept and Prototypes from Groundbreaking IC3 Research
+IC3 logo
+Supported by IC3
+Prize Pool($10,000)
+$10,000 split across all tracks in the Hackathon
+Choose your research
+Builders will select from 14 papers spanning TEEs, cryptographic primitives, DeFi security, and more. The papers’ authors will present on Day 1, then provide mentorship throughout the hackathon as you build.
+
+$10,000 in prizes. Winners have the opportunity to participate in the Shape Rotator Accelerator (Up to $50k per graduating team).
+
+Who is this for? 
+Experienced builders who want to productionize research. You don’t need to be an expert in TEEs or threshold cryptography, but you should be comfortable with academic concepts and research. 
+
+Solo applicants are welcome. Team formation happens on Day 1 during the product jam session. 
+
+Reading materials: Applicants are encouraged to select one or two papers they are interested in and familiarize themselves with the research ahead of time. 
+
+
+
+TEE & AI-Enabled Applications
+IC3 logo
+Supported by IC3
+Trusted Execution Environments (TEEs) create hardware-isolated zones where code runs privately — even the machine's owner can't see inside.
+This track explores what becomes possible when you combine TEEs with AI agents, data pipelines, and coordination protocols: from delegating credentials without exposing passwords, to enforcing NDAs with AI agents, to building privacy-preserving data marketplaces.
+
+Dstack is the shared infrastructure layer across this track — a decentralized TEE cloud that several of these papers build on top of.
+
+Tracks
+NDAI Agreements
+NDAI Agreements — AI agents enforcing NDAs via TEE. (Andrew Miller, Hackathon Organizer / Flashbots[X] / Associate Director, IC3)
+
+Props
+Props — Privacy-preserving ML data pipelines using zkTLS. (Dani Vilardell, PhD Student, Cornell University)
+
+
+
+Persistent BitTorrent Trackers on Dstack
+Persistent BitTorrent Trackers on Dstack | Code — Verifiable reputation, portable across tracker failures. (François-Xavier Wicht, PhD Student, University of Bern)
+
+
+
+Cycles Protocol
+Cycles Protocol | Code — Privacy-preserving multilateral clearing and settlement via TEE. (Ethan Buchman, CEO Informal Systems / Co-founder Cosmos)
+
+
+
+Liquefaction
+Liquefaction | Code — TEE-based key encumbrance enabling shared, rented, or pooled asset control. (James Austgen, PhD Student, Cornell University)
+
+
+
+Conditional Recall
+Conditional Recall | Code — Brokered credential delegation via TEE. Already productionizing as Teleport. (Xyn Sun, Entrepreneur in Residence, Teleport/Flashbots[X])
+
+Cryptographic Primitives & Identity
+IC3 logo
+Supported by IC3
+The building blocks of trust without centralization.
+This track covers threshold cryptography (splitting secrets across multiple parties), privacy-preserving identity and login systems, ZK proving acceleration, and the practical realities of TEE attestation. These are the primitives that other applications — including those in Tracks 1 and 3 — are built on.
+
+
+Tracks
+Thetacrypt
+Thetacrypt | Code — Modular Rust library for threshold signatures, encryption, and verifiable randomness. (Mariarosaria Barbaraci, PhD Student, University of Bern)
+
+
+
+Anonymous Self-Credentials & SSO
+Anonymous Self-Credentials & SSO | Code — Privacy-preserving login without trusting the identity provider. Sybil resistance. (Ioannis Kaklamanis, PhD Student, Yale University and Jayamine Alupotha, PhD Student, University of Bern)
+
+Constraint-Friendly Hash-to-Group
+Constraint-Friendly Hash-to-Group | Code — 23x fewer constraints, 50-100x faster ZK proving. (Harjasleen Malvai, Researcher, UIUC)
+
+
+
+Narrowing the Gap: TEE Threat Models & Deployment
+Narrowing the Gap: TEE Threat Models & Deployment — What TEE attestation can and can't do today. (Filip Rezabek, PhD Student, Technical University of Munich)
+
+DeFi, Security & Mechanism Design
+IC3 logo
+Supported by IC3
+How do you make decentralized finance safer, more resilient, and better incentivized?
+This track covers restaking without cascading failures, randomized rewards for reporting attacks, and automated smart contract vulnerability discovery. Each paper has a concrete product direction — from protocol-level security improvements to developer tooling.
+
+Tracks
+Prrr: Personal Random Rewards for Blockchain Reporting
+Prrr: Personal Random Rewards for Blockchain Reporting — Personal Random Rewards for Blockchain Reporting. Incentivize reporting double-spend attacks with verifiable random rewards. (Hongyin Chen, Postdoctoral Researcher, Technion)
+
+
+
+skanf
+skanf — Bytecode-level smart contract vulnerability finder and exploit generator for obfuscated contracts. (Sen Yang, PhD Student, Yale University)
+
+
+
+PROF: Protected Order Flow
+PROF: Protected Order Flow — TEE-enforced transaction ordering that prevents harmful MEV manipulation in PBS systems, while ensuring profitable block inclusion. (Kushal Babel, Senior Researcher, Category Labs)
+
+
+
+Elastic Restaking
+Elastic Restaking | Code — Restaking that stretches to cover losses instead of cascading failures. Can drastically improve the threat models of protocols like Eigenlayer and Symbiotic. (Roi Bar-Zur, PhD Student, Technion)
+
+
+
+Bonus Track: The Cohort that Builds Itself
+IC3 logo
+Supported by IC3
+Build a tool that your peers can't live without.
+Researchers and builders collaborate every day — sharing data, delegating access, tracking contributions, protecting IP — using infrastructure that wasn't designed for privacy or trust. This track challenges you to fix that.
+
+Your users are people like you. Build something that makes collaborative research and development meaningfully better, using the cryptographic and TEE primitives from the reading list.
+
+For example: imagine a TEE-private sandbox where teams submit meeting transcripts or proprietary data for processing — without exposing raw content to other teams or organizers.
+
+The reading list is full of starting points (examples below), but we're not prescribing solutions. If it solves a real collaboration pain point and leverages the research, we want to see it.
+
+Cycles Protocol — process attribution data as a graph, clearing contributions and dependencies across teams
+Props — TEE-based meeting transcript aggregator for cross-team work, private data processing by the host
+Conditional Recall — share cloud credentials, API keys, or dev resources across a team without exposing secrets
+Thetacrypt — threshold-signed team wallets, shared custody of project assets
+Anonymous Self-Credentials — Sybil-resistant hackathon registration without doxxing participants
+NDAI Agreements — teams pitching ideas to judges/sponsors without risking IP expropriation
+Persistent BitTorrent Trackers — distribute datasets and shared codebases with verifiable contribution tracking
+Your project doesn't need to be fully deployed by the end of the hackathon — but it should be clear who would use it, and why.
