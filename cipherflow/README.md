@@ -14,6 +14,16 @@
 6. [API Reference](#api-reference)
 7. [Deployment Guide](#deployment-guide)
 8. [Development Roadmap](#development-roadmap)
+9. [Demo Video Guide](#demo-video-guide)
+
+**Additional Documents:**
+- `QUICK_START.md` - Your starting point and roadmap
+- `RESEARCH_PAPERS.md` - Detailed research paper analysis
+- `ARCHITECTURE.md` - Complete technical architecture
+- `DATABASE_SCHEMA.md` - Database design
+- `SECURITY.md` - Security design and threat model
+- `IMPLEMENTATION_GUIDE.md` - Step-by-step build guide
+- `DEMO_VIDEO.md` - Remotion-based demo video guide
 
 ---
 
@@ -503,11 +513,35 @@ npm run dev
 
 ---
 
+## Demo Video
+
+Create a compelling demo video using **Remotion** (React-based video creation).
+
+See `DEMO_VIDEO.md` for:
+- Complete video script and storyboard
+- Remotion setup and components
+- Screen recording tips
+- Editing workflow
+- Production checklist
+
+**Key Scenes:**
+1. Problem statement (0:00-0:30)
+2. Solution introduction (0:30-0:45)
+3. Live demo - Upload (0:45-1:15)
+4. Live demo - Processing (1:15-1:45)
+5. Live demo - Results (1:45-2:15)
+6. Technical deep dive (2:15-2:40)
+7. Call to action (2:40-3:00)
+
+---
+
 ## Questions?
 
 Refer to:
+- `QUICK_START.md` - Your starting point and roadmap
 - `RESEARCH_PAPERS.md` - Detailed research paper analysis
 - `ARCHITECTURE.md` - Deep dive into system design
-- `API_REFERENCE.md` - Complete API documentation
+- `IMPLEMENTATION_GUIDE.md` - Step-by-step build guide
+- `DEMO_VIDEO.md` - Remotion-based demo video guide
 - `SECURITY.md` - Security design and threat model
 
