@@ -1,6 +1,6 @@
-# CipherFlow - Implementation Guide
+# Velarc - Implementation Guide
 
-Step-by-step guide to building CipherFlow from scratch.
+Step-by-step guide to building Velarc from scratch.
 
 ---
 
@@ -50,10 +50,10 @@ Step-by-step guide to building CipherFlow from scratch.
 
 ```bash
 # Create Next.js project
-npx create-next-app@latest cipherflow --typescript --tailwind --app --no-src-dir
+npx create-next-app@latest velarc --typescript --tailwind --app --no-src-dir
 
 # Navigate to project
-cd cipherflow
+cd velarc
 
 # Initialize git
 git init
@@ -93,7 +93,7 @@ Create `.env.local`:
 
 ```env
 # Database
-DATABASE_URL="postgresql://user:password@localhost:5432/cipherflow"
+DATABASE_URL="postgresql://user:password@localhost:5432/velarc"
 
 # OpenAI
 OPENAI_API_KEY="your-api-key-here"
@@ -135,7 +135,7 @@ npx prisma migrate dev --name init
 Create folder structure:
 
 ```
-cipherflow/
+velarc/
 ├── app/
 │   ├── (auth)/
 │   ├── upload/

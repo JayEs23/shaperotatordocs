@@ -1,4 +1,4 @@
-# CipherFlow - Demo Video Guide
+# Velarc - Demo Video Guide
 
 **Using Remotion to create a compelling hackathon demo video**
 
@@ -14,7 +14,7 @@
 
 ### Key Messages
 1. **Problem**: Pitch deck privacy is a real issue
-2. **Solution**: CipherFlow enables secure AI analysis
+2. **Solution**: Velarc enables secure AI analysis
 3. **How It Works**: Encrypted pipeline + TEE simulation
 4. **Value**: Judges get insights without seeing raw data
 
@@ -43,10 +43,10 @@
 
 ### Scene 2: Solution Introduction (0:30 - 0:45)
 
-**Visual**: CipherFlow logo reveal, architecture diagram
+**Visual**: Velarc logo reveal, architecture diagram
 
 **Narration**:
-> "CipherFlow solves this with confidential AI execution. Documents are encrypted, processed in a secure container, and judges receive only AI-generated insights—never the raw pitch deck."
+> "Velarc solves this with confidential AI execution. Documents are encrypted, processed in a secure container, and judges receive only AI-generated insights—never the raw pitch deck."
 
 **Remotion Components**:
 - Logo animation
@@ -54,7 +54,7 @@
 - Flow animation (document → encryption → processing → results)
 
 **Key Points**:
-- CipherFlow introduction
+- Velarc introduction
 - Core value proposition
 - Security guarantee
 
@@ -151,7 +151,7 @@
 **Visual**: Architecture diagram animation
 
 **Narration**:
-> "CipherFlow leverages cutting-edge IC3 research: NDAI Agreements for AI privacy, Props for secure ML pipelines, Conditional Recall for key management, and Thetacrypt for threshold cryptography. It's built on Next.js with Docker containers simulating TEE isolation."
+> "Velarc leverages cutting-edge IC3 research: NDAI Agreements for AI privacy, Props for secure ML pipelines, Conditional Recall for key management, and Thetacrypt for threshold cryptography. It's built on Next.js with Docker containers simulating TEE isolation."
 
 **Remotion Components**:
 - Research paper logos/icons
@@ -172,7 +172,7 @@
 **Visual**: Final summary slide
 
 **Narration**:
-> "CipherFlow enables secure AI analysis for hackathons, research collaboration, and enterprise document processing. Built with privacy-first principles and cryptographic guarantees. Try it at cipherflow.demo"
+> "Velarc enables secure AI analysis for hackathons, research collaboration, and enterprise document processing. Built with privacy-first principles and cryptographic guarantees. Try it at velarc.demo"
 
 **Remotion Components**:
 - Use cases animation
@@ -193,7 +193,7 @@
 ### Project Structure
 
 ```
-cipherflow/
+velarc/
 ├── remotion/
 │   ├── src/
 │   │   ├── Root.tsx
@@ -243,8 +243,8 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="CipherFlowDemo"
-        component={CipherFlowDemo}
+        id="VelarcDemo"
+        component={VelarcDemo}
         durationInFrames={5400} // 3 minutes at 30fps
         fps={30}
         width={1920}
@@ -272,7 +272,7 @@ export const Logo: React.FC = () => {
   
   return (
     <div style={{ opacity, transform: `scale(${scale})` }}>
-      <h1>CipherFlow</h1>
+      <h1>Velarc</h1>
     </div>
   );
 };
@@ -408,7 +408,7 @@ export const ContainerVisualization: React.FC = () => {
 
 ### 6. Render
 ```bash
-npx remotion render CipherFlowDemo out/video.mp4
+npx remotion render VelarcDemo out/video.mp4
 ```
 
 ---
@@ -480,10 +480,10 @@ mkdir -p remotion/src/{scenes,components}
 npx remotion preview
 
 # Render video
-npx remotion render CipherFlowDemo out/demo.mp4
+npx remotion render VelarcDemo out/demo.mp4
 
 # Render with custom settings
-npx remotion render CipherFlowDemo out/demo.mp4 \
+npx remotion render VelarcDemo out/demo.mp4 \
   --codec h264 \
   --crf 18 \
   --pixel-format yuv420p

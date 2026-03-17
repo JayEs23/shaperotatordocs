@@ -1,4 +1,4 @@
-# CipherFlow - Security Design
+# Velarc - Security Design
 
 Complete security architecture, threat model, and mitigation strategies.
 

@@ -1,4 +1,4 @@
-# CipherFlow - Technical Architecture
+# Velarc - Technical Architecture
 
 Deep dive into the system architecture, components, and design decisions.
 
@@ -22,7 +22,7 @@ Deep dive into the system architecture, components, and design decisions.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      CipherFlow Platform                     │
+│                        Velarc Platform                       │
 ├─────────────────────────────────────────────────────────────┤
 │                                                               │
 │  ┌─────────────────────────────────────────────────────┐    │

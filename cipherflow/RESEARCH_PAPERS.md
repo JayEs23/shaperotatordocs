@@ -1,6 +1,6 @@
-# Research Papers Required for CipherFlow
+# Research Papers Required for Velarc
 
-This document details which research papers you need to read and how they apply to CipherFlow.
+This document details which research papers you need to read and how they apply to Velarc.
 
 ---
 
@@ -14,7 +14,7 @@ This document details which research papers you need to read and how they apply 
 - **Priority**: CRITICAL - This is the foundation
 
 #### Why This Paper Matters
-This paper directly addresses your core use case: **AI processing with privacy guarantees**. It shows how to use TEEs to enforce NDAs with AI agents, which is exactly what CipherFlow needs for secure pitch deck evaluation.
+This paper directly addresses your core use case: **AI processing with privacy guarantees**. It shows how to use TEEs to enforce NDAs with AI agents, which is exactly what Velarc needs for secure pitch deck evaluation.
 
 #### Key Concepts to Extract
 1. **TEE-based AI Execution**
@@ -32,7 +32,7 @@ This paper directly addresses your core use case: **AI processing with privacy g
    - Input/output controls
    - Verification patterns
 
-#### How to Apply to CipherFlow
+#### How to Apply to Velarc
 - Use TEE isolation for AI processing
 - Implement similar privacy guarantees
 - Adapt NDA enforcement for document processing
@@ -53,7 +53,7 @@ This paper directly addresses your core use case: **AI processing with privacy g
 - **Priority**: CRITICAL - Exact use case match
 
 #### Why This Paper Matters
-Props is about **privacy-preserving ML data pipelines** - this is exactly what CipherFlow does! It uses zkTLS for verifiable TLS connections and TEE-based processing.
+Props is about **privacy-preserving ML data pipelines** - this is exactly what Velarc does! It uses zkTLS for verifiable TLS connections and TEE-based processing.
 
 #### Key Concepts to Extract
 1. **zkTLS for Verifiable Connections**
@@ -71,7 +71,7 @@ Props is about **privacy-preserving ML data pipelines** - this is exactly what C
    - Secure computation patterns
    - Result verification
 
-#### How to Apply to CipherFlow
+#### How to Apply to Velarc
 - Use similar pipeline architecture
 - Implement verifiable data transmission
 - Adapt ML pipeline patterns for AI analysis
@@ -92,7 +92,7 @@ Props is about **privacy-preserving ML data pipelines** - this is exactly what C
 - **Priority**: HIGH - Key sharing mechanism
 
 #### Why This Paper Matters
-CipherFlow's **ShadowVault** concept needs secure key sharing. Conditional Recall shows how to delegate credentials via TEE without exposing secrets - perfect for our key management system.
+Velarc's **ShadowVault** concept needs secure key sharing. Conditional Recall shows how to delegate credentials via TEE without exposing secrets - perfect for our key management system.
 
 #### Key Concepts to Extract
 1. **Credential Delegation**
@@ -110,7 +110,7 @@ CipherFlow's **ShadowVault** concept needs secure key sharing. Conditional Recal
    - Isolated key operations
    - Attestation for keys
 
-#### How to Apply to CipherFlow
+#### How to Apply to Velarc
 - Implement ShadowVault using similar patterns
 - Use TEE for key reconstruction
 - Adapt delegation for threshold cryptography
@@ -149,7 +149,7 @@ ShadowVault uses **threshold cryptography** to split keys. Thetacrypt provides a
    - Verification mechanisms
    - Security guarantees
 
-#### How to Apply to CipherFlow
+#### How to Apply to Velarc
 - Use threshold cryptography for ShadowVault
 - Implement key splitting (3-of-3 threshold)
 - Adapt signature schemes for proof generation
@@ -188,7 +188,7 @@ You need to understand **what TEEs can actually do** and their limitations. This
    - Practical security considerations
    - Best practices
 
-#### How to Apply to CipherFlow
+#### How to Apply to Velarc
 - Design realistic security guarantees
 - Understand threat model boundaries
 - Implement appropriate mitigations
@@ -318,7 +318,7 @@ Before reading, ensure you understand:
 After reading each paper:
 1. **Summarize** - Write 1-page summary
 2. **Extract** - Identify relevant components
-3. **Adapt** - Plan how to use in CipherFlow
+3. **Adapt** - Plan how to use in Velarc
 4. **Document** - Add to implementation notes
 
 ---

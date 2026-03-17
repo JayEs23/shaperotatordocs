@@ -1,6 +1,6 @@
-# CipherFlow - Quick Start Guide
+# Velarc - Quick Start Guide
 
-**Your complete roadmap to building and winning with CipherFlow**
+**Your complete roadmap to building and winning with Velarc**
 
 ---
 
@@ -49,7 +49,7 @@ You **MUST** read these 5 research papers before coding:
 
 ## 📚 Documentation Structure
 
-All documentation is in `docs/cipherflow/`:
+All documentation is in `docs/velarc/`:
 
 1. **README.md** - Overview and index
 2. **RESEARCH_PAPERS.md** - Detailed research paper analysis
@@ -103,7 +103,7 @@ All documentation is in `docs/cipherflow/`:
 
 ## 🎯 Winning Strategy
 
-### What Makes CipherFlow Win
+### What Makes Velarc Win
 
 1. **Solves Real Problem**: Hackathon pitch deck privacy
 2. **Uses Research**: Leverages multiple IC3 papers
@@ -139,7 +139,7 @@ Before you start coding:
 ### Project Setup
 ```bash
 # Initialize Next.js
-npx create-next-app@latest cipherflow --typescript --tailwind --app
+npx create-next-app@latest velarc --typescript --tailwind --app
 
 # Install dependencies
 npm install prisma @prisma/client openai pdf-parse mammoth tweetnacl
@@ -164,10 +164,10 @@ npx prisma generate
 ### Docker
 ```bash
 # Build worker image
-docker build -f docker/enclave.Dockerfile -t cipherflow-worker .
+docker build -f docker/enclave.Dockerfile -t velarc-worker .
 
 # Run worker
-docker run --rm cipherflow-worker job-id
+docker run --rm velarc-worker job-id
 ```
 
 ---
@@ -234,7 +234,7 @@ docker run --rm cipherflow-worker job-id
 ### Resources
 - Research paper authors (mentors during hackathon)
 - IC3 community
-- Documentation in `docs/cipherflow/`
+- Documentation in `docs/velarc/`
 - Code examples in implementation guide
 
 ### Questions to Ask
@@ -289,7 +289,7 @@ Use this template for each research paper:
 [What can we use?]
 
 ## Implementation Notes
-[How to adapt for CipherFlow?]
+[How to adapt for Velarc?]
 
 ## Security Properties
 [What guarantees?]
